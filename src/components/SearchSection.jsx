@@ -15,7 +15,6 @@ const SearchSection = () => {
   };
 
   const handleFeelingLucky = () => {
-    // Simulate "I'm Feeling Lucky" functionality
     const luckySearches = [
       "beautiful landscapes",
       "cute animals",
@@ -41,7 +40,6 @@ const SearchSection = () => {
 
   return (
     <div className="w-full">
-      {/* Search Bar */}
       <div
         className={`relative w-full max-w-xl mx-auto mb-8 transition-all duration-200`}
       >
@@ -68,7 +66,6 @@ const SearchSection = () => {
         </div>
       </div>
 
-      {/* Search Buttons */}
       <div className="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-8">
         <button
           onClick={handleSearch}
@@ -84,7 +81,6 @@ const SearchSection = () => {
         </button>
       </div>
 
-      {/* Language Options */}
       <div className="text-center text-sm text-muted-foreground">
         Google offered in:{" "}
         <a href="#" className="text-primary hover:underline ml-1">
