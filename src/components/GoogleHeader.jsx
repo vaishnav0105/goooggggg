@@ -9,7 +9,7 @@ const GoogleHeader = () => {
         <a href="#" className="text-gray-700 hover:underline">About</a>
         <a href="#" className="text-gray-700 hover:underline">Store</a>
       </div>
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-2">
         <a href="#" className="text-gray-700 hover:underline">Gmail</a>
         <a href="#" className="text-gray-700 hover:underline">Images</a>
         <button className="p-2 rounded-full hover:bg-gray-100 transition-colors">

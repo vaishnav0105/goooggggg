@@ -81,7 +81,7 @@ const SearchSection = () => {
         </button>
       </div>
 
-      <div className="text-center text-sm text-muted-foreground">
+      <div className="text-center text-sm text-muted-foreground langugage-options">
         Google offered in:{" "}
         <a href="#" className="text-primary hover:underline ml-1">
           हिन्दी
